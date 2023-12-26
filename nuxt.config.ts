@@ -3,4 +3,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/eslint-module', '@nuxtjs/tailwindcss', 'nuxt-headlessui'],
+  headlessui: {
+    prefix: 'Headless',
+  },
 });
