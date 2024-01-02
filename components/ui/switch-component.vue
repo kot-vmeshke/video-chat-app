@@ -2,7 +2,7 @@
 <template>
   <HeadlessSwitch
     v-model="modelValue"
-    :class="modelValue ? 'bg-white-600' : 'bg-gray-200'"
+    :class="modelValue ? 'bg-white' : 'bg-gray-50'"
     class="cursor-pointer duration-200 ease-in-out flex p-1 ring-1 ring-gray-900/5 ring-inset rounded-full transition-colors w-14">
     <span
       aria-hidden="true"
